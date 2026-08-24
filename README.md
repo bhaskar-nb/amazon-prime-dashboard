@@ -1,8 +1,8 @@
 # Amazon Prime Content Intelligence Dashboard | Tableau
 
-An interactive Tableau dashboard that analyzes the **Amazon Prime Video content catalog** to reveal patterns in content type, genres, ratings, countries, and release years.
+An interactive **Tableau dashboard for analyzing the Amazon Prime Video content catalog**, with a focus on content mix, genres, ratings, release-year trends, and geographic distribution.
 
-The project turns a large entertainment dataset into an easy-to-explore view of **catalog composition and content trends**.
+The goal is simple: turn a large catalog dataset into a visual analysis that makes **content patterns easy to compare and explore**.
 
 ## 🔗 Live Dashboard
 
@@ -14,43 +14,48 @@ The project turns a large entertainment dataset into an easy-to-explore view of 
 
 ![Amazon Prime Overview Dashboard](images/Amazon%20%20Overview%20Dashboard.png)
 
-## Why this project matters
+## What the analysis covers
 
-A content library is more useful when you can quickly see **what it contains, how it is distributed, and how that mix changes over time**.
+The dashboard lets users explore:
 
-This dashboard helps explore:
+- **Content mix** — Movies vs. TV Shows
+- **Genre distribution** — which categories dominate the catalog
+- **Ratings** — how titles are distributed across content ratings
+- **Release trends** — how title volume varies by release year
+- **Geographic distribution** — countries contributing titles to the catalog
+- **Catalog diversity** — how the content mix varies across major dimensions
 
-- How the catalog is split between **Movies and TV Shows**
-- Which **genres and ratings** are most represented
-- How content volume changes across **release years**
-- Which **countries** contribute the most titles
-- How diverse the overall catalog is across major content dimensions
+## Business questions
 
-## Key questions answered
+The dashboard is designed to answer questions such as:
 
-- Does the catalog lean more toward Movies or TV Shows?
-- Which genres have the highest representation?
-- Which content ratings appear most frequently?
-- How has the volume of titles changed over time?
-- Which countries contribute the most content?
-- What does the overall catalog mix look like?
+- Is the catalog more heavily weighted toward Movies or TV Shows?
+- Which genres and ratings have the largest representation?
+- How does content volume change across release years?
+- Which countries contribute the most titles?
+- What does the overall catalog composition look like?
 
 ## Dashboard views
 
-### Content overview
-High-level KPIs and comparisons for total titles, Movies, TV Shows, countries, genres, and ratings.
+### Content Overview
 
-### Release trends
-Shows how the distribution of titles changes across release years and highlights periods with higher content volume.
+Provides high-level KPIs and comparisons for total titles, Movies, TV Shows, countries, genres, and ratings.
 
-### Genre analysis
-Compares genre representation to identify dominant and less-represented content categories.
+### Release Trends
 
-### Ratings analysis
-Examines audience-rating distribution and differences across the catalog.
+Shows how the number and distribution of titles changes across release years.
 
-### Geographic analysis
-Explores country-level contribution to the content library and its geographic diversity.
+### Genre Analysis
+
+Compares genre representation to highlight dominant and less-represented categories.
+
+### Ratings Analysis
+
+Explores the distribution of titles across audience/content ratings.
+
+### Geographic Analysis
+
+Examines country-level contribution and the geographic diversity of the catalog.
 
 ## Dataset
 
@@ -64,7 +69,7 @@ The dataset is included in the repository for reproducibility.
 
 ## Tech stack
 
-- **Tableau** — data visualization, dashboard development, and analysis
+- **Tableau** — dashboard development, visualization, and analysis
 - **CSV** — source dataset
 - **Git & GitHub** — version control and project hosting
 
@@ -72,7 +77,6 @@ The dataset is included in the repository for reproducibility.
 
 - Exploratory Data Analysis
 - Business Intelligence
-- Data Visualization
 - KPI Design
 - Trend Analysis
 - Geographic Analysis
@@ -82,7 +86,7 @@ The dataset is included in the repository for reproducibility.
 ## Repository structure
 
 ```text
-Amazon Prime Analysis/
+amazon-prime-dashboard/
 │
 ├── data/
 │   └── amazon_prime_titles.csv
@@ -97,9 +101,9 @@ Amazon Prime Analysis/
 └── README.md
 ```
 
-## Notes
+## Scope & limitation
 
-This is an **analytics portfolio project** based on the supplied Amazon Prime titles dataset. The findings describe the dataset and should not be treated as a complete or current representation of Amazon Prime Video's live catalog.
+This is an **analytics portfolio project** based on the supplied Amazon Prime titles dataset. The analysis describes that dataset and should not be treated as a complete or current representation of Amazon Prime Video's live catalog.
 
 ## Author
 
