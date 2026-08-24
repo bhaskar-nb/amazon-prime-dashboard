@@ -1,16 +1,12 @@
-# 🎬 Amazon Prime Content Intelligence Dashboard | Tableau
+# Amazon Prime Content Intelligence Dashboard | Tableau
 
-An interactive **Amazon Prime Video Analytics Dashboard** built in **Tableau** to analyze content distribution, genres, ratings, release trends, countries, and the overall composition of the Amazon Prime content library.
+An interactive Tableau dashboard that analyzes the **Amazon Prime Video content catalog** to reveal patterns in content type, genres, ratings, countries, and release years.
 
-This project demonstrates how data visualization and business intelligence can transform a large entertainment dataset into meaningful insights about content strategy and catalog composition.
-
----
+The project turns a large entertainment dataset into an easy-to-explore view of **catalog composition and content trends**.
 
 ## 🔗 Live Dashboard
 
-[**View Interactive Dashboard on Tableau Public**](https://public.tableau.com/app/profile/bhaskar.nakka4980/viz/AmazonprimeAnalysis_17871481548780/AMAZONCONTENTINTELLIGENCEDASHBOARD)
-
----
+**[View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/bhaskar.nakka4980/viz/AmazonprimeAnalysis_17871481548780/AMAZONCONTENTINTELLIGENCEDASHBOARD)**
 
 ## 📸 Dashboard Preview
 
@@ -18,175 +14,72 @@ This project demonstrates how data visualization and business intelligence can t
 
 ![Amazon Prime Overview Dashboard](images/Amazon%20%20Overview%20Dashboard.png)
 
----
+## Why this project matters
 
-## 🎯 Project Objective
+A content library is more useful when you can quickly see **what it contains, how it is distributed, and how that mix changes over time**.
 
-The objective of this project is to analyze the Amazon Prime Video content catalog and understand how its library is distributed across different content types, genres, ratings, countries, and release years.
+This dashboard helps explore:
 
-The dashboard helps explore:
+- How the catalog is split between **Movies and TV Shows**
+- Which **genres and ratings** are most represented
+- How content volume changes across **release years**
+- Which **countries** contribute the most titles
+- How diverse the overall catalog is across major content dimensions
 
-- Movies vs TV Shows distribution
-- Content growth over time
-- Genre distribution
-- Content ratings
-- Country-wise content availability
-- Release year trends
-- Catalog composition
-- Content characteristics across different categories
+## Key questions answered
 
----
-
-## 📊 Key Metrics
-
-The dashboard provides a high-level overview of the Amazon Prime content catalog through key metrics such as:
-
-- 🎬 Total Titles
-- 🎥 Movies
-- 📺 TV Shows
-- 🌎 Countries Represented
-- 🎭 Genres
-- ⭐ Content Ratings
-- 📅 Release Year Trends
-
----
-
-## 📈 Dashboard Analysis
-
-### 🎬 Content Overview
-
-The overview dashboard provides a high-level understanding of the Amazon Prime content library.
-
-It allows users to compare:
-
-- Movies and TV Shows
-- Content volume across release years
-- Genre distribution
-- Ratings distribution
-- Country-wise content availability
-
----
-
-### 📅 Content Trends
-
-The release-year analysis shows how the content catalog has changed over time.
-
-This helps identify:
-
-- Periods of increased content production
-- Changes in catalog growth
-- Historical distribution of titles
-- Recent content trends
-
----
-
-### 🎭 Genre Analysis
-
-The dashboard analyzes the distribution of content across different genres.
-
-This helps answer questions such as:
-
-- Which genres dominate the catalog?
-- Which genres have relatively smaller representation?
-- How diverse is the content library?
-
----
-
-### ⭐ Ratings Analysis
-
-Content ratings are analyzed to understand the type of audience targeted by different titles.
-
-The analysis helps identify:
-
-- Most common content ratings
-- Distribution of titles across audience categories
-- Differences between content types and ratings
-
----
-
-### 🌎 Geographic Analysis
-
-The dashboard explores content distribution across countries.
-
-This provides insight into:
-
-- Countries contributing the most content
-- Geographic diversity of the catalog
-- Regional representation within Amazon Prime's content library
-
----
-
-## 💡 Business Questions Answered
-
-The dashboard allows users to investigate questions such as:
-
-- How many movies and TV shows are available?
-- Which content type dominates the catalog?
+- Does the catalog lean more toward Movies or TV Shows?
 - Which genres have the highest representation?
-- How has content volume changed over the years?
-- Which countries contribute the most titles?
-- What are the most common content ratings?
-- How diverse is the Amazon Prime content catalog?
-- Which periods show significant growth in content?
+- Which content ratings appear most frequently?
+- How has the volume of titles changed over time?
+- Which countries contribute the most content?
+- What does the overall catalog mix look like?
 
----
+## Dashboard views
 
-## 🗂️ Dataset
+### Content overview
+High-level KPIs and comparisons for total titles, Movies, TV Shows, countries, genres, and ratings.
 
-This project uses the **Amazon Prime Titles dataset**, containing information about titles available on the platform.
+### Release trends
+Shows how the distribution of titles changes across release years and highlights periods with higher content volume.
 
-### Dataset Details
+### Genre analysis
+Compares genre representation to identify dominant and less-represented content categories.
 
-| Attribute | Description |
-|---|---|
-| Dataset Type | Entertainment Content Dataset |
-| Format | CSV |
-| Source | Amazon Prime Titles Dataset |
-| Primary Use | Data Visualization & Analytics |
+### Ratings analysis
+Examines audience-rating distribution and differences across the catalog.
 
-### Dataset Fields
+### Geographic analysis
+Explores country-level contribution to the content library and its geographic diversity.
 
-The dataset contains attributes such as:
+## Dataset
 
-- Show ID
-- Type
-- Title
-- Director
-- Cast
-- Country
-- Date Added
-- Release Year
-- Rating
-- Duration
-- Listed In
-- Description
+This project uses the **Amazon Prime Titles dataset** in CSV format.
 
----
+Key fields include:
 
-## 🛠️ Tools & Technologies
+`show_id` · `type` · `title` · `director` · `cast` · `country` · `date_added` · `release_year` · `rating` · `duration` · `listed_in` · `description`
 
-- **Tableau** — Dashboard development and data visualization
-- **CSV** — Dataset storage
-- **Git & GitHub** — Version control and project management
+The dataset is included in the repository for reproducibility.
 
----
+## Tech stack
 
-## 📚 Skills Demonstrated
+- **Tableau** — data visualization, dashboard development, and analysis
+- **CSV** — source dataset
+- **Git & GitHub** — version control and project hosting
 
-- Tableau Dashboard Development
-- Data Visualization
+## Skills demonstrated
+
 - Exploratory Data Analysis
+- Business Intelligence
+- Data Visualization
 - KPI Design
-- Content Analytics
 - Trend Analysis
 - Geographic Analysis
 - Interactive Dashboard Design
-- Business Intelligence
 - Data Storytelling
 
----
-
-## 📁 Repository Structure
+## Repository structure
 
 ```text
 Amazon Prime Analysis/
@@ -202,3 +95,12 @@ Amazon Prime Analysis/
 │   └── Amazon prime Analysis.twbx
 │
 └── README.md
+```
+
+## Notes
+
+This is an **analytics portfolio project** based on the supplied Amazon Prime titles dataset. The findings describe the dataset and should not be treated as a complete or current representation of Amazon Prime Video's live catalog.
+
+## Author
+
+**Bhaskar Nakka** · [GitHub](https://github.com/bhaskar-nb) · [LinkedIn](https://www.linkedin.com/in/bhaskar-nakka-43a701259/)
